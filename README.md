@@ -1,5 +1,5 @@
 # Shared Preferences for Fitbit
-Android-like, memory cached and persistent key-value storage for Fitbit SDK.
+Android-like, memory cached and persistent key-value local storage for Fitbit Ionic SDK.
 
 ## Usage
 It's a super simple script, so I'll be brief there.
