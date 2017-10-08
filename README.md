@@ -4,7 +4,7 @@ Android-like, memory cached and persistent key-value storage for Fitbit SDK.
 ## Usage
 It's a super simple script, so I'll be brief there.
 
-Put the script in the commons folder, or wherever you want.
+Put the script in the common folder, or wherever you want.
 
 Import the script:
 ```javascript
