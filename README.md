@@ -11,14 +11,18 @@ Import the script:
 import * as prefs from "../common/shared_preferences";
 ```
 
-Store your value:
+Store your values:
 ```javascript
 prefs.setItem("keep_screen_on", true);
+prefs.setItem("user_name", "John Doe");
+prefs.setItem("birth_year", 1988);
 ```
 
-Read your value:
+Read your values:
 ```javascript
 let keepScreenOn = prefs.getItem("keep_screen_on");
+let userName = prefs.getItem("user_name");
+let birthYear = prefs.getItem("birth_year");
 ```
 
 The script loads the data automatically on start, and saves it on close. You can, however, load or save (synchronously) on demand:
